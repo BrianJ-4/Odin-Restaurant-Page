@@ -27,6 +27,7 @@ export function createHome() {
     // Create icon element
     const iconElement = document.createElement("i");
     iconElement.className = "material-icons";
+    iconElement.id = "logo"
     iconElement.textContent = "restaurant";
 
     // Append icon to image container
