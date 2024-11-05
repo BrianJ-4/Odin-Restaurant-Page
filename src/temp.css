@@ -1,0 +1,40 @@
+html {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #EAE7DC;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+}
+
+
+#content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.material-icons {
+  font-size: 250px;
+  color: black;
+}
+
+#text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#name {
+  font-size: 5em;
+  line-height: 0.9;
+}
+
+
