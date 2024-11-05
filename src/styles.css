@@ -36,6 +36,7 @@ button:hover {
   flex: 1;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 /* Home Page */
@@ -92,4 +93,9 @@ button:hover {
 .item-icon {
   font-size: 150px;
   margin-right: 10px;
+}
+
+#menu-title {
+  margin: 40px 20px;
+  font-size: 40px;
 }
