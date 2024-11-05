@@ -1,6 +1,15 @@
 html {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: #EAE7DC;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+  min-height: 100%;
 }
 
 nav {
@@ -12,6 +21,14 @@ nav {
 button {
   width: 100px;
   height: 40px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #EAE7DC;
+}
+
+button:hover {
+  background-color: #eeece8;
+  cursor: pointer;
 }
 
 
@@ -19,6 +36,8 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  align-self: center;
+  margin-bottom: 150px;
 }
 
 .material-icons {
