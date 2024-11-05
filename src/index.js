@@ -1,7 +1,7 @@
 import { createHome } from "./page_modules/home.js";
 import { createMenu } from "./page_modules/menu.js";
 import { createContact } from "./page_modules/contact.js";
-import "./temp.css";
+import "./styles.css";
 
 createHome();
 
