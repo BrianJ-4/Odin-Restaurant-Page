@@ -2,6 +2,10 @@ export function createHome() {
     // Get the content container
     const content = document.querySelector("#content");
 
+    // Create home container
+    const homeContainer = document.createElement("div");
+    homeContainer.id = "home-container";
+
     // Create text container
     const textContainer = document.createElement("div");
     textContainer.id = "text-container";
@@ -33,7 +37,10 @@ export function createHome() {
     // Append icon to image container
     imageContainer.appendChild(iconElement);
 
-    // Append containers to content container
-    content.appendChild(textContainer);
-    content.appendChild(imageContainer);
+    // Append containers to home container
+    homeContainer.appendChild(textContainer);
+    homeContainer.appendChild(imageContainer);
+
+    // Append home container to content container
+    content.appendChild(homeContainer);
 }
